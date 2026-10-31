@@ -1,0 +1,43 @@
+{
+  "provenance": "Synthetic local walkthrough. Attestations are demo records, not actual external QA/security approval.",
+  "release": {
+    "id": "abf02b08-815c-479f-835d-bbc44c59d900",
+    "project": "independent-demo",
+    "digest": "302b08ecc786aa579deeace02c1e2032c212b6ac36777482300e72de3631c009",
+    "status": "approved",
+    "evidence": [
+      {
+        "gate": "qa",
+        "actor": "demo-qa",
+        "reference": "demo-evidence/qa"
+      },
+      {
+        "gate": "security",
+        "actor": "demo-security",
+        "reference": "demo-evidence/security"
+      }
+    ],
+    "events": [
+      {
+        "kind": "created",
+        "actor": "operator",
+        "at": "2026-10-31T12:53:41.684Z"
+      },
+      {
+        "kind": "qa-attested",
+        "actor": "demo-qa",
+        "at": "2026-10-31T12:53:41.685Z"
+      },
+      {
+        "kind": "security-attested",
+        "actor": "demo-security",
+        "at": "2026-10-31T12:53:41.685Z"
+      },
+      {
+        "kind": "production-approved",
+        "actor": "demo-operator",
+        "at": "2026-10-31T12:53:41.686Z"
+      }
+    ]
+  }
+}
